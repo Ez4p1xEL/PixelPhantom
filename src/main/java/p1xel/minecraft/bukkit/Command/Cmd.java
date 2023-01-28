@@ -57,7 +57,7 @@ public class Cmd implements CommandExecutor {
             if (args[0].equalsIgnoreCase("add")) {
 
                 if (Config.getStringList("blacklist-worlds.worlds").contains(args[1])) {
-                    sender.sendMessage(Locale.getMessage("world-exists"));
+                    sender.sendMessage(Locale.getMessage("world-exists").replaceAll("%world%", args[1]));
                     return true;
                 }
 
@@ -73,7 +73,7 @@ public class Cmd implements CommandExecutor {
             if (args[0].equalsIgnoreCase("remove")) {
 
                 if (!Config.getStringList("blacklist-worlds.worlds").contains(args[1])) {
-                    sender.sendMessage(Locale.getMessage("world-does-not-exist"));
+                    sender.sendMessage(Locale.getMessage("world-does-not-exist").replaceAll("%world%", args[1]));
                     return true;
                 }
 
