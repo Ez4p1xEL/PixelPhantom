@@ -1,0 +1,10 @@
+name: PixelPhantom
+main: p1xel.minecraft.bukkit.PixelPhantom
+version: 1.0
+api-version: 1.13
+commands:
+  PixelPhantom:
+    aliases: []
+permissions:
+  pixelphantom.admin:
+    default: op

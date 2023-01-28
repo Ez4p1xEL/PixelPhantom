@@ -1,23 +1,23 @@
-Language: zh_CN
+Language: en
 Prefix: PixelPhantom
 commands:
   main:
     - '&bPixelPhantom &aby Ez4p1xEL'
-    - '&f/PixelPhantom help &6查看帮助'
+    - '&f/PixelPhantom help &6View help'
   help:
     - '&7&m                                '
     - '&b&lPixelPhantom'
-    - '&f/PixelPhantom add <世界> &6将世界加入黑/白名单列表中'
-    - '&f/PixelPhantom remove <世界> &6将世界从黑/白名单列表中移除'
-    - '&f/PixelPhantom clear &6清空黑/白名单列表'
-    - '&f/PixelPhantom reload &6重载配置文件'
+    - '&f/PixelPhantom add <world> &6Add the world into the list.'
+    - '&f/PixelPhantom remove <world> &6Remove the world from the list.'
+    - '&f/PixelPhantom clear &6Clear the list.'
+    - '&f/PixelPhantom reload &6Reload the configuration.'
     - '&7&m                                '
 
-no-perm: '&7[&b%prefix%&7] &c你没有权限这么做!'
-world-exists: '&7[&b%prefix%&7] &c世界 &9%world% &c已存在列表中!'
-world-does-not-exist: '&7[&b%prefix%&7] &c世界 &9%world% &c不存在列表中!'
+no-perm: '&7[&b%prefix%&7] &cYou do not have permission to do that!'
+world-exists: '&7[&b%prefix%&7] &9%world% &calready exists!'
+world-does-not-exist: '&7[&b%prefix%&7] &9%world% &cis not exist!'
 
-add-success: '&7[&b%prefix%&7] &a你成功地将世界 &9%world% &a移入列表!'
-remove-success: '&7[&b%prefix%&7] &a你成功地将世界 &9%world% &a移出列表!'
-clear-success: '&7[&b%prefix%&7] &a你成功地清空了列表!'
-reload-success: '&7[&b%prefix%&7] &a配置文件重载成功!'
+add-success: '&7[&b%prefix%&7] &aYou successfully added &9%world% &ainto the list!'
+remove-success: '&7[&b%prefix%&7] &aYou successfully removed &9%world% &afrom the list!'
+clear-success: '&7[&b%prefix%&7] &aYou successfully cleared the list!'
+reload-success: '&7[&b%prefix%&7] &aConfiguration reloaded successfully!'

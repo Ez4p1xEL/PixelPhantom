@@ -1,0 +1,17 @@
+Version: 1.0
+
+Language: en
+
+# Blacklist worlds, the phantom will spawn in those worlds.
+# 黑名单世界列表, 幻翼会在这些世界正常生成, 其他世界则禁止
+blacklist-worlds:
+  worlds:
+    - 'world'
+    - 'bskyblock_world'
+  # Change the list to WHITELIST. Then the phantom will not spawn in those worlds.
+  # 设置将黑名单列表更改为白名单, 这样列表中的世界将不会生成幻翼, 其他世界则正常生成
+  to-whitelist: true
+
+spawn-egg:
+  allow: true
+
